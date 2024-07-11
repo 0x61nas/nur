@@ -25,7 +25,7 @@ rustPlatform.buildRustPackage rec {
     changelog = "https://github.com/robertpsoane/ducker/releases/tag/v${version}";
     license = lib.licenses.mit;
     mainProgram = "ducker";
-    maintainers = with lib.maintainers; [ anas ];
+    # maintainers = with lib.maintainers; [ anas ];
     platforms = with lib.platforms; unix ++ windows;
   };
 }
