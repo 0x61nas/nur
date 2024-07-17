@@ -1,20 +1,26 @@
 { lib
 , fetchFromGitHub
 , rustPlatform
+, pkg-config
+, openssl
 }:
 
 rustPlatform.buildRustPackage rec {
   pname = "ducker";
-  version = "0.0.5";
+  version = "0.0.6";
 
   src = fetchFromGitHub {
     owner = "robertpsoane";
     repo = "ducker";
     rev = "v${version}";
-    hash = "sha256-a1lLuck6DN1JaWSlBo2hcvAUL9wgrv2uBDjNp1YIvF8=";
+    hash = "sha256-KT76qhAXUV1ShxXD0NVdvIU0RrEimGJt2RRDkqejZ9s=";
   };
 
-  cargoHash = "sha256-9NZWZxBDetZ32xBSeV64PstoOK2zpzsuV2ADHw7QlMQ=";
+  cargoHash = "sha256-Ji0/CPPqlWUyCwt5XO9DeO71TemDxknNZSgQfkO5U98=";
+
+  nativeBuildInputs = [ pkg-config ];
+
+  buildInputs = [ openssl ];
 
   # There is no tests
   doCheck = false;
