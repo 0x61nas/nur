@@ -16,6 +16,7 @@
 
   example-package = pkgs.callPackage ./pkgs/example-package { };
   ducker = pkgs.callPackage ./pkgs/ducker { };
+  lpl = pkgs.callPackage ./pkgs/lpl { };
   # some-qt5-package = pkgs.libsForQt5.callPackage ./pkgs/some-qt5-package { };
   # ...
 }
