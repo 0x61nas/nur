@@ -17,6 +17,7 @@
   example-package = pkgs.callPackage ./pkgs/example-package { };
   ducker = pkgs.callPackage ./pkgs/ducker { };
   lpl = pkgs.callPackage ./pkgs/lpl { };
+  tokei-pie = pkgs.callPackage ./pkgs/tokie-pie { buildPythonApplication = pkgs.python3Packages.buildPythonApplication; };
   # some-qt5-package = pkgs.libsForQt5.callPackage ./pkgs/some-qt5-package { };
   # ...
 }
