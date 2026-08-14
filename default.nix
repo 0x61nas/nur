@@ -19,6 +19,7 @@
   lpl = pkgs.callPackage ./pkgs/lpl { };
   tokei-pie = pkgs.callPackage ./pkgs/tokie-pie { buildPythonApplication = pkgs.python3Packages.buildPythonApplication; };
   autolock = pkgs.callPackage ./pkgs/autolock { };
+  guitar = pkgs.callPackage ./pkgs/guitar { };
   # some-qt5-package = pkgs.libsForQt5.callPackage ./pkgs/some-qt5-package { };
   # ...
 }
