@@ -7,7 +7,7 @@
 
 rustPlatform.buildRustPackage rec {
   pname = "ducker";
-  version = "0.0.6";
+  version = "0.6.5";
 
   src = fetchFromGitHub {
     owner = "robertpsoane";
@@ -16,7 +16,7 @@ rustPlatform.buildRustPackage rec {
     hash = "sha256-KT76qhAXUV1ShxXD0NVdvIU0RrEimGJt2RRDkqejZ9s=";
   };
 
-  cargoHash = "sha256-Ji0/CPPqlWUyCwt5XO9DeO71TemDxknNZSgQfkO5U98=";
+  cargoHash = "sha256-gqAB71+9ENTiqUEEJkH5n63a5E1YSiDO0Zvml7DjLr0=";
 
   nativeBuildInputs = [ pkg-config ];
 
