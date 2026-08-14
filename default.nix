@@ -18,6 +18,7 @@
   ducker = pkgs.callPackage ./pkgs/ducker { };
   lpl = pkgs.callPackage ./pkgs/lpl { };
   tokei-pie = pkgs.callPackage ./pkgs/tokie-pie { buildPythonApplication = pkgs.python3Packages.buildPythonApplication; };
+  autolock = pkgs.callPackage ./pkgs/autolock { };
   # some-qt5-package = pkgs.libsForQt5.callPackage ./pkgs/some-qt5-package { };
   # ...
 }
