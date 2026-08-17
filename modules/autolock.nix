@@ -79,6 +79,8 @@ in {
     #systemd.services.autolock = {
       Unit = {
         Description = "A minimal X11 idle-watcher";
+        After = [ "graphical-session.target" ];
+        PartOf = [ "graphical-session.target" ];
       };
 
       Service = {
@@ -97,9 +99,6 @@ in {
       Install = {
         WantedBy = [ "graphical-session.target" ];
       };
-
-      after = [ "graphical-session.target" ];
-      partOf = [ "graphical-session.target" ];
     };
   };
 }
