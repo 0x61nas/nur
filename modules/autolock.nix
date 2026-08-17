@@ -75,7 +75,8 @@ in {
   };
 
   config = lib.mkIf cfg.enable {
-    systemd.services.autolock = {
+    systemd.user.services.autolock = {
+    #systemd.services.autolock = {
       description = "A minimal X11 idle-watcher";
 
       wantedBy = [ "graphical.target" ];
