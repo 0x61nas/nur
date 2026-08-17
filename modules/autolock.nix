@@ -77,30 +77,29 @@ in {
   config = lib.mkIf cfg.enable {
     systemd.user.services.autolock = {
     #systemd.services.autolock = {
-      description = "A minimal X11 idle-watcher";
+      Unit = {
+        Description = "A minimal X11 idle-watcher";
+      };
 
-      wantedBy = [ "graphical.target" ];
-
-      after = [
-        "graphical.target"
-        "display-manager.service"
-      ];
-
-      wants = [
-        "graphical.target"
-      ];
-
-      serviceConfig = {
+      Service = {
         ExecStart = lib.escapeShellArgs (
           [ "${cfg.package}/bin/autolock" ] ++ args
         );
 
         Restart = "on-failure";
-
+        
         Environment = lib.optional (
           cfg.display != ""
         ) "DISPLAY=${cfg.display}";
       };
+        
+
+      Install = {
+        WantedBy = [ "graphical-session.target" ];
+      };
+
+      after = [ "graphical-session.target" ];
+      partOf = [ "graphical-session.target" ];
     };
   };
 }
