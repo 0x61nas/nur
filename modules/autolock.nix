@@ -16,7 +16,6 @@ let
       (optionalArg "-c" cfg.lockCommand)
       (optionalArg "-f" cfg.fullscreenTimeout)
       (lib.optional cfg.ignoreSleep "--ignore-sleep")
-      (lib.optional cfg.verbose "-v")
       cfg.extraArgs
     ];
 in {
@@ -61,11 +60,6 @@ in {
       type = lib.types.bool;
       default = false;
       description = "Ignore the sleep signal.";
-    };
-
-    verbose = lib.mkOption {
-      type = lib.types.bool;
-      default = false;
     };
 
     extraArgs = lib.mkOption {
