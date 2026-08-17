@@ -4,7 +4,7 @@ let
   cfg = config.services.autolock;
 
   optionalArg = flag: value:
-    lib.optional (value != null && value != "") [
+    lib.optionals (value != null && value != "") [
       flag
       value
     ];
