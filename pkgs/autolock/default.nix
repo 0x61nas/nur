@@ -17,12 +17,11 @@ stdenv.mkDerivation {
     owner = "ayari";
     repo = "autolock";
     rev = version;
-    hash = "sha256-wMjAeJIXPmns2xlyp3JfJG4Tk7/5K2b9dnSdRjcyCwQ=";
+    hash = "sha256-oc4YGtvru3fa60iUv+oaqhsU1Q1lYRjNuwveSINKgZ0=";
   };
 
   patches = [
     ./systemd-libs.patch
-    ./0001-chore-config.mk-bump-ver-to-1.0.patch
   ];
 
   buildInputs = [
