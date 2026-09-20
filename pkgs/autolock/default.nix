@@ -8,7 +8,7 @@
 
 let
   pname = "autolock";
-  version = "1.0";
+  version = "1.2";
 in
 stdenv.mkDerivation {
   inherit pname version;
@@ -17,7 +17,7 @@ stdenv.mkDerivation {
     owner = "ayari";
     repo = "autolock";
     rev = version;
-    hash = "sha256-oc4YGtvru3fa60iUv+oaqhsU1Q1lYRjNuwveSINKgZ0=";
+    hash = "sha256-4g4dFzfeHtePccvhj9bMkFiE1S4ivwLeCt8EbZxdiU4=";
   };
 
   patches = [
