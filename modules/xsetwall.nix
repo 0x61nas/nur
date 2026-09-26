@@ -31,7 +31,8 @@ let
 
   cycling = cfg.mode != "static";
 
-  # Picks the wallpaper for the current mode and hands it to xsetwall.
+  # Picks a wallpaper for the current mode and hands it to xsetwall, retrying
+  # with another image until `tries` attempts are used up.
   setWallpaper = pkgs.writeShellScriptBin "xsetwall-pick" (lib.removeSuffix "\n" ''
     set -euo pipefail
     export LC_ALL=C
@@ -43,6 +44,7 @@ let
     directory=${lib.escapeShellArg (strOrEmpty cfg.directory)}
     static_wallpaper=${lib.escapeShellArg (strOrEmpty cfg.staticWallpaper)}
     avoid_repeat=${if cfg.avoidRepeat then "true" else "false"}
+    tries=${toString cfg.tries}
 
     state_dir="''${XDG_STATE_HOME:-$HOME/.local/state}/xsetwall"
 
@@ -66,13 +68,23 @@ let
       [ "''${#images[@]}" -gt 0 ] || return 1
 
       if [ "$mode" = random ]; then
+        # A retry never offers an image an earlier attempt already failed on.
+        local -a exclude=("''${tried[@]}")
         if [ "$avoid_repeat" = true ] && [ -r "$state_dir/current" ]; then
-          local last
-          last=$(<"$state_dir/current")
-          for image in "''${images[@]}"; do
-            [ "$image" = "$last" ] || pool+=("$image")
-          done
+          exclude+=("$(<"$state_dir/current")")
         fi
+
+        for image in "''${images[@]}"; do
+          local skip=false seen
+          for seen in "''${exclude[@]}"; do
+            if [ "$image" = "$seen" ]; then
+              skip=true
+              break
+            fi
+          done
+          [ "$skip" = true ] || pool+=("$image")
+        done
+
         [ "''${#pool[@]}" -gt 0 ] || pool=("''${images[@]}")
         printf '%s\n' "''${pool[RANDOM % ''${#pool[@]}]}"
         return 0
@@ -93,26 +105,48 @@ let
     }
 
     image=""
+    status=0
+    attempt=1
+    tried=()
 
-    if [ "$mode" = static ]; then
-      image=$static_wallpaper
-    else
-      image=$(pick_image "$directory") || image=""
-      if [ -z "$image" ]; then
-        echo "xsetwall: no images found in $directory, using the static wallpaper" >&2
+    while [ "$attempt" -le "$tries" ]; do
+      image=""
+
+      if [ "$mode" = static ]; then
         image=$static_wallpaper
+      else
+        image=$(pick_image "$directory") || image=""
+        if [ -z "$image" ]; then
+          echo "xsetwall: no images found in $directory, using the static wallpaper" >&2
+          image=$static_wallpaper
+        fi
+        ${pkgs.coreutils}/bin/mkdir -p "$state_dir"
+        printf '%s\n' "$image" >"$state_dir/current"
       fi
-      ${pkgs.coreutils}/bin/mkdir -p "$state_dir"
-      printf '%s\n' "$image" >"$state_dir/current"
+
+      if [ -z "$image" ]; then
+        echo "xsetwall: no wallpaper to set" >&2
+        exit 1
+      fi
+
+      echo "xsetwall: attempt $attempt of $tries, setting $image"
+      status=0
+      "$xsetwall" "''${xsetwall_args[@]}" "$image" || status=$?
+
+      if [ "$status" -eq 0 ]; then
+        break
+      fi
+
+      echo "xsetwall: failed to set $image, xsetwall exited with $status" >&2
+      tried+=("$image")
+      attempt=$((attempt + 1))
+    done
+
+    if [ "$status" -ne 0 ]; then
+      echo "xsetwall: giving up after $tries attempts, last exit status $status" >&2
     fi
 
-    if [ -z "$image" ]; then
-      echo "xsetwall: no wallpaper to set" >&2
-      exit 1
-    fi
-
-    echo "xsetwall: setting $image"
-    exec "$xsetwall" "''${xsetwall_args[@]}" "$image"
+    exit $status
   '');
 
   serviceUnit =
@@ -312,6 +346,20 @@ in
       description = ''
         Whether to avoid picking the same image twice in a row in the
         `"random"` mode.
+      '';
+    };
+
+    tries = lib.mkOption {
+      type = lib.types.ints.positive;
+      default = 3;
+      description = ''
+        The number of times to try setting a wallpaper before giving up.
+        Every failed attempt is logged with the image it tried, and the next
+        attempt uses a different image: the `"alphabetical"` mode moves on to
+        the following image, and the `"random"` mode avoids the images the
+        earlier attempts already failed on. The `"static"` mode has no other
+        image to fall back on, so it retries the same one. The exit status of
+        the last attempt becomes the exit status of the service.
       '';
     };
   };
