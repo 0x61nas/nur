@@ -847,7 +847,7 @@
   },
   {
     "addonId": "{531906d3-e22f-4a6c-a102-8057b88a1a63}",
-    "hash": "sha256:799ea061e768c587b14c6bbaf66dca718d8ef6213da6f5c145bbcfa86882bef9",
+    "hash": "sha256:970756b0a6f42b117d2dbce30c39f34fb901901daece498979fbb8bf3b8d9a49",
     "homepage": "https://www.getsinglefile.com",
     "licenseId": 7714,
     "permissions": [
@@ -860,8 +860,8 @@
     ],
     "slug": "single-file",
     "summary": "Save an entire web page—including images and styling—as a single HTML file.",
-    "url": "https://addons.mozilla.org/firefox/downloads/file/5064052/single_file-1.27.0.xpi",
-    "version": "1.27.0"
+    "url": "https://addons.mozilla.org/firefox/downloads/file/5080622/single_file-1.28.0.xpi",
+    "version": "1.28.0"
   },
   {
     "addonId": "sponsorBlocker@ajay.app",
