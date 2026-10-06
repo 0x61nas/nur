@@ -1167,6 +1167,31 @@
     "version": "2.49.0"
   },
   {
+    "addonId": "wayback_machine@mozilla.org",
+    "hash": "sha256:75da413fee7c28e22ed61380f959888ec80c14e2a38f7b6f9d622f8a4ea853e4",
+    "homepage": "https://archive.org",
+    "licenseId": 6,
+    "permissions": [
+      "activeTab",
+      "cookies",
+      "contextMenus",
+      "notifications",
+      "storage",
+      "webRequest",
+      "webRequestBlocking",
+      "https://archive.org/*",
+      "https://*.archive.org/*",
+      "https://hypothes.is/*",
+      "<all_urls>",
+      "http://*.wikipedia.org/*",
+      "https://*.wikipedia.org/*"
+    ],
+    "slug": "wayback-machine_new",
+    "summary": "Welcome to the Official Internet Archive Wayback Machine Browser Extension! Go back in time to see how a website has changed through the history of the Web. Save websites, view missing 404 Not Found pages, or read archived books &amp; papers.",
+    "url": "https://addons.mozilla.org/firefox/downloads/file/4047136/wayback_machine_new-3.2.xpi",
+    "version": "3.2"
+  },
+  {
     "addonId": "myallychou@gmail.com",
     "hash": "sha256:46bbf40b781ace323771ff193c5de2785b410d5d883641f8f07c393a8f96d69c",
     "homepage": "https://unhook.app",
