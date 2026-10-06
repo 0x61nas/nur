@@ -404,6 +404,31 @@
     "version": "3.4.0"
   },
   {
+    "addonId": "{eac6e624-97fa-4f28-9d24-c06c9b8aa713}",
+    "hash": "sha256:6cbd72b544f948e177a3a46df806844409bc67e4de24eac2038fd9b0bcb90558",
+    "homepage": "https://github.com/material-extensions/material-icons-browser-extension",
+    "licenseId": 22,
+    "permissions": [
+      "storage",
+      "activeTab",
+      "scripting",
+      "*://github.com/*",
+      "*://bitbucket.org/*",
+      "*://dev.azure.com/*",
+      "*://*.visualstudio.com/*",
+      "*://gitea.com/*",
+      "*://gitlab.com/*",
+      "*://gitee.com/*",
+      "*://sourceforge.net/*",
+      "*://codeberg.org/*",
+      "*://tangled.org/*"
+    ],
+    "slug": "material-icons-for-github",
+    "summary": "Replace the file/folder icons on github file browsers with icons representing the file's type and which tool it is used by.",
+    "url": "https://addons.mozilla.org/firefox/downloads/file/5080172/material_icons_for_github-1.17.1.xpi",
+    "version": "1.17.1"
+  },
+  {
     "addonId": "@testpilot-containers",
     "hash": "sha256:306a294845363f15a7478e9620b43f91ea1761088727808e2327bfff16c14447",
     "homepage": "https://github.com/mozilla/multi-account-containers/#readme",
