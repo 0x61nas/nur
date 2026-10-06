@@ -475,6 +475,26 @@
     "version": "19.0.0"
   },
   {
+    "addonId": "{6706d386-2d33-4e1e-bbf1-51b9e1ce47e1}",
+    "hash": "sha256:f6563ce33539e75ce9dc33b9c74c47d51f71ef684beefea26c4c4f6033ab07a6",
+    "homepage": "https://github.com/leoding86/webextension-pixiv-toolkit",
+    "licenseId": 7057,
+    "permissions": [
+      "webRequest",
+      "webRequestBlocking",
+      "storage",
+      "unlimitedStorage",
+      "*://*.pixiv.net/*",
+      "*://*.pximg.net/*",
+      "*://*.techorus-cdn.com/*",
+      "*://*.fanbox.cc/*"
+    ],
+    "slug": "pixiv-toolkit",
+    "summary": "Convert ugoira to gif or/and webm, pack manga for downloading and download novel on Pixiv.",
+    "url": "https://addons.mozilla.org/firefox/downloads/file/3801770/pixiv_toolkit-4.9.0.xpi",
+    "version": "4.9.0"
+  },
+  {
     "addonId": "jid1-MnnxcxisBPnSXQ@jetpack",
     "hash": "sha256:97cd8911e3486da34a532a7c7f2806cd6d0cfa117a1fbe5e8747042a94442d62",
     "homepage": "https://privacybadger.org/",
