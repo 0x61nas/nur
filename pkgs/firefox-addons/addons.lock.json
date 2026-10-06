@@ -1034,6 +1034,26 @@
     "version": "2.4.14"
   },
   {
+    "addonId": "Tab-Session-Manager@sienori",
+    "hash": "sha256:10ddc3bc27179cb32962fa8629e87d9d2c3897a604ba347666ebe16a1488751b",
+    "homepage": "https://tab-session-manager.sienori.com/",
+    "licenseId": 3338,
+    "permissions": [
+      "storage",
+      "unlimitedStorage",
+      "tabs",
+      "tabGroups",
+      "cookies",
+      "downloads",
+      "identity",
+      "alarms"
+    ],
+    "slug": "tab-session-manager",
+    "summary": "Save and restore the state of windows and tabs. It also supports automatic saving and cloud sync.",
+    "url": "https://addons.mozilla.org/firefox/downloads/file/4905104/tab_session_manager-7.4.0.xpi",
+    "version": "7.4.0"
+  },
+  {
     "addonId": "tab-stash@condordes.net",
     "hash": "sha256:27471446d599cdc626f91fedf6b572fb4b1c4964e9b2c2b47169d7537c3c9524",
     "homepage": "https://josh-berry.github.io/tab-stash/",
