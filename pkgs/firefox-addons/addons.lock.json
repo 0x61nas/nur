@@ -936,6 +936,22 @@
     "version": "2.6.3"
   },
   {
+    "addonId": "{762f9885-5a13-4abd-9c77-433dcd38b8fd}",
+    "hash": "sha256:59719749f6df38c1601ca5f39c02158d5f005c43e9eeea1f19527f468c941217",
+    "licenseId": 6,
+    "permissions": [
+      "activeTab",
+      "*://*.youtube.com/*",
+      "storage",
+      "*://returnyoutubedislikeapi.com/*",
+      "identity"
+    ],
+    "slug": "return-youtube-dislikes",
+    "summary": "Returns ability to see dislike statistics on youtube",
+    "url": "https://addons.mozilla.org/firefox/downloads/file/5012638/return_youtube_dislikes-4.0.6.xpi",
+    "version": "4.0.6"
+  },
+  {
     "addonId": "{3c078156-979c-498b-8990-85f7987dd929}",
     "hash": "sha256:e8a0a4b556ab7dd536897c1816af9d0918030223068ea6683a04376103a6caf2",
     "homepage": "https://github.com/mbnuqw/sidebery",
