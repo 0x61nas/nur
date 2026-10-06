@@ -1,7 +1,7 @@
 [
   {
     "addonId": "{c2c003ee-bd69-42a2-b0e9-6f34222cb046}",
-    "hash": "sha256:66a98738e69df9ad7c7aeb12a495c5880d1f56fb93610f51cd3207a9b73ee702",
+    "hash": "sha256:77e7a630e3ab378440c3924e57450db88bf262803608b1a47430f3cc8c5294f6",
     "homepage": "https://webextension.org/listing/tab-discard.html",
     "licenseId": 3338,
     "permissions": [
@@ -15,8 +15,8 @@
     ],
     "slug": "auto-tab-discard",
     "summary": "Increase browser speed and reduce memory load and when you have numerous open tabs.",
-    "url": "https://addons.mozilla.org/firefox/downloads/file/4978053/auto_tab_discard-0.7.3.xpi",
-    "version": "0.7.3"
+    "url": "https://addons.mozilla.org/firefox/downloads/file/5090327/auto_tab_discard-0.7.5.xpi",
+    "version": "0.7.5"
   },
   {
     "addonId": "{74145f27-f039-47ce-a470-a662b129930a}",
@@ -234,6 +234,23 @@
     "summary": "Automatically removes tracking parameters from URLs",
     "url": "https://addons.mozilla.org/firefox/downloads/file/4432106/clearurls-1.27.3.xpi",
     "version": "1.27.3"
+  },
+  {
+    "addonId": "{5cce4ab5-3d47-41b9-af5e-8203eea05245}",
+    "hash": "sha256:283e844c870939df9dec4be8a840c5a9e3b2c42c0223a87dbf5cea34822d3a8b",
+    "homepage": "https://soitis.dev/control-panel-for-twitter",
+    "licenseId": 22,
+    "permissions": [
+      "storage",
+      "https://twitter.com/*",
+      "https://mobile.twitter.com/*",
+      "https://x.com/*",
+      "https://mobile.x.com/*"
+    ],
+    "slug": "control-panel-for-twitter",
+    "summary": "Gives you more control over Twitter and adds missing features and UI improvements",
+    "url": "https://addons.mozilla.org/firefox/downloads/file/5086598/control_panel_for_twitter-4.24.4.xpi",
+    "version": "4.24.4"
   },
   {
     "addonId": "addon@darkreader.org",
@@ -847,7 +864,7 @@
   },
   {
     "addonId": "{531906d3-e22f-4a6c-a102-8057b88a1a63}",
-    "hash": "sha256:799ea061e768c587b14c6bbaf66dca718d8ef6213da6f5c145bbcfa86882bef9",
+    "hash": "sha256:a935081a8b46a580b4ec1230f272569a280866570fbe1047031a4aed76886b67",
     "homepage": "https://www.getsinglefile.com",
     "licenseId": 7714,
     "permissions": [
@@ -860,8 +877,8 @@
     ],
     "slug": "single-file",
     "summary": "Save an entire web page—including images and styling—as a single HTML file.",
-    "url": "https://addons.mozilla.org/firefox/downloads/file/5064052/single_file-1.27.0.xpi",
-    "version": "1.27.0"
+    "url": "https://addons.mozilla.org/firefox/downloads/file/5084732/single_file-1.28.1.xpi",
+    "version": "1.28.1"
   },
   {
     "addonId": "sponsorBlocker@ajay.app",
