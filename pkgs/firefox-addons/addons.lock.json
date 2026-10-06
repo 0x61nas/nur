@@ -905,6 +905,20 @@
     "version": "2026.9.15"
   },
   {
+    "addonId": "contact@lukaslen.com",
+    "hash": "sha256:d37db2e463d0e7789458977d2b073f33a79e4c4d024c134bbd3c19aaf369ee11",
+    "homepage": "https://github.com/aryomuzakki/Privacy-Extension-For-WhatsApp-Web",
+    "licenseId": 22,
+    "permissions": [
+      "storage",
+      "https://web.whatsapp.com/*"
+    ],
+    "slug": "privacy-extension-for-whatsapp",
+    "summary": "The Privacy Extension For WhatsApp™ Web hides your messages from unwanted glimpses until you hover over them. In the search bar, you can disable the blur effect on all messages manually and specify what elements to blur.",
+    "url": "https://addons.mozilla.org/firefox/downloads/file/4931372/privacy_extension_for_whatsapp-3.4.4.1.xpi",
+    "version": "3.4.4.1"
+  },
+  {
     "addonId": "{3c078156-979c-498b-8990-85f7987dd929}",
     "hash": "sha256:e8a0a4b556ab7dd536897c1816af9d0918030223068ea6683a04376103a6caf2",
     "homepage": "https://github.com/mbnuqw/sidebery",
