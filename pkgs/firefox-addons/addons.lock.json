@@ -253,6 +253,27 @@
     "version": "4.24.4"
   },
   {
+    "addonId": "crxviewer-firefox@robwu.nl",
+    "hash": "sha256:9e09ae5a01e7165288678553cb4b1252ebd1f9ecd25a0784ad2e7b14aa7a7a78",
+    "homepage": "https://github.com/Rob--W/crxviewer",
+    "licenseId": 3338,
+    "permissions": [
+      "tabs",
+      "storage",
+      "contextMenus",
+      "downloads",
+      "alarms",
+      "cookies",
+      "webRequest",
+      "webRequestBlocking",
+      "*://*/*"
+    ],
+    "slug": "crxviewer",
+    "summary": "View source code of Firefox add-ons and Chrome extensions (crx/nex/xpi) from addons.mozilla.org, the Chrome Webstore and elsewhere, with CRX Viewer (crxviewer).",
+    "url": "https://addons.mozilla.org/firefox/downloads/file/4998970/crxviewer-1.7.1.xpi",
+    "version": "1.7.1"
+  },
+  {
     "addonId": "addon@darkreader.org",
     "hash": "sha256:eb06c5096d761616c7f1d954c11524ca4bff4fe7229044dc1fce288a8c0853ab",
     "homepage": "https://darkreader.org/",
