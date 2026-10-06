@@ -1094,6 +1094,22 @@
     "version": "3.5"
   },
   {
+    "addonId": "{036a55b4-5e72-4d05-a06c-cba2dfcc134a}",
+    "hash": "sha256:67f4b90279426590ccf88f85aef14509948b4e661682d938a93c0bcce94c523b",
+    "licenseId": 3338,
+    "permissions": [
+      "<all_urls>",
+      "storage",
+      "activeTab",
+      "contextMenus",
+      "webRequest"
+    ],
+    "slug": "traduzir-paginas-web",
+    "summary": "Translate your page in real time using Google, Bing or Yandex.\nIt is not necessary to open new tabs.",
+    "url": "https://addons.mozilla.org/firefox/downloads/file/4962745/traduzir_paginas_web-10.2.1.0.xpi",
+    "version": "10.2.1.0"
+  },
+  {
     "addonId": "uBlock0@raymondhill.net",
     "hash": "sha256:5b74415860456370644bd80f16125e865b0e6c356bb5dfcfb84069967eaa5287",
     "homepage": "https://github.com/gorhill/uBlock#ublock-origin",
