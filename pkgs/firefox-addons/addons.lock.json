@@ -1165,5 +1165,21 @@
     "summary": "Userscript support for browsers, open source.",
     "url": "https://addons.mozilla.org/firefox/downloads/file/5009389/violentmonkey-2.49.0.xpi",
     "version": "2.49.0"
+  },
+  {
+    "addonId": "myallychou@gmail.com",
+    "hash": "sha256:46bbf40b781ace323771ff193c5de2785b410d5d883641f8f07c393a8f96d69c",
+    "homepage": "https://unhook.app",
+    "licenseId": 7057,
+    "permissions": [
+      "storage",
+      "webRequest",
+      "https://www.youtube.com/*",
+      "https://m.youtube.com/*"
+    ],
+    "slug": "youtube-recommended-videos",
+    "summary": "Hide YouTube related videos, comments, video suggestions wall, homepage recommendations, trending tab, and other distractions.",
+    "url": "https://addons.mozilla.org/firefox/downloads/file/4733035/youtube_recommended_videos-1.6.9.xpi",
+    "version": "1.6.9"
   }
 ]
