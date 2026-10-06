@@ -89,7 +89,14 @@
     "slug": "traduzir-paginas-web"
   },
   {
-    "slug": "youtube-recommended-videos"
+    "slug": "youtube-recommended-videos",
+    "license": {
+      "tag": "custom",
+      "shortName": "unhook-eula",
+      "fullName": "End-User License Agreement for Unhook: Remove YouTube Recommended Videos Comments",
+      "url": "https://addons.mozilla.org/en-US/firefox/addon/youtube-recommended-videos/eula/},",
+      "free": false
+    }
   },
   {
     "slug": "wayback-machine_new"
