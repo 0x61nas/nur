@@ -919,6 +919,23 @@
     "version": "3.4.4.1"
   },
   {
+    "addonId": "readeck@readeck.com",
+    "hash": "sha256:d5f9b1a25856133048ff0a96f7d2b5abe0beb3ce890a61ae1a64f8ab2b0facaf",
+    "homepage": "https://readeck.org/en/",
+    "licenseId": 12,
+    "permissions": [
+      "activeTab",
+      "contextMenus",
+      "scripting",
+      "storage",
+      "webRequest"
+    ],
+    "slug": "readeck",
+    "summary": "Readeck companion browser extension",
+    "url": "https://addons.mozilla.org/firefox/downloads/file/4751337/readeck-2.6.3.xpi",
+    "version": "2.6.3"
+  },
+  {
     "addonId": "{3c078156-979c-498b-8990-85f7987dd929}",
     "hash": "sha256:e8a0a4b556ab7dd536897c1816af9d0918030223068ea6683a04376103a6caf2",
     "homepage": "https://github.com/mbnuqw/sidebery",
