@@ -254,7 +254,7 @@
   },
   {
     "addonId": "{5cce4ab5-3d47-41b9-af5e-8203eea05245}",
-    "hash": "sha256:283e844c870939df9dec4be8a840c5a9e3b2c42c0223a87dbf5cea34822d3a8b",
+    "hash": "sha256:bf072e85094603bfc1bfc6ababfb778e36bb000065eca5aa06a88dd01decde96",
     "homepage": "https://soitis.dev/control-panel-for-twitter",
     "licenseId": 22,
     "permissions": [
@@ -266,8 +266,8 @@
     ],
     "slug": "control-panel-for-twitter",
     "summary": "Gives you more control over Twitter and adds missing features and UI improvements",
-    "url": "https://addons.mozilla.org/firefox/downloads/file/5086598/control_panel_for_twitter-4.24.4.xpi",
-    "version": "4.24.4"
+    "url": "https://addons.mozilla.org/firefox/downloads/file/5105385/control_panel_for_twitter-4.25.0.xpi",
+    "version": "4.25.0"
   },
   {
     "addonId": "crxviewer-firefox@robwu.nl",
