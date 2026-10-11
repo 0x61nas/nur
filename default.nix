@@ -31,6 +31,8 @@
   wtfi2 = pkgs.callPackage ./pkgs/wtfi2 { };
   lrcget = pkgs.callPackage ./pkgs/lrcget { };
   gitpane = pkgs.callPackage ./pkgs/gitpane { };
+  budget-tracker = pkgs.callPackage ./pkgs/budget-tracker { };
+  budget-tracker-tui = pkgs.callPackage ./pkgs/budget-tracker { }; # alias
   # some-qt5-package = pkgs.libsForQt5.callPackage ./pkgs/some-qt5-package { };
   # ...
 }
