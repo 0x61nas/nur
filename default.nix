@@ -33,6 +33,7 @@
   gitpane = pkgs.callPackage ./pkgs/gitpane { };
   budget-tracker = pkgs.callPackage ./pkgs/budget-tracker { };
   budget-tracker-tui = pkgs.callPackage ./pkgs/budget-tracker { }; # alias
+  swpui = pkgs.callPackage ./pkgs/swpui { };
   # some-qt5-package = pkgs.libsForQt5.callPackage ./pkgs/some-qt5-package { };
   # ...
 }
