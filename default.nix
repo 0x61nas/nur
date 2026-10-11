@@ -34,6 +34,7 @@
   budget-tracker = pkgs.callPackage ./pkgs/budget-tracker { };
   budget-tracker-tui = pkgs.callPackage ./pkgs/budget-tracker { }; # alias
   swpui = pkgs.callPackage ./pkgs/swpui { };
+  flyline = pkgs.callPackage ./pkgs/flyline { };
   # some-qt5-package = pkgs.libsForQt5.callPackage ./pkgs/some-qt5-package { };
   # ...
 }
