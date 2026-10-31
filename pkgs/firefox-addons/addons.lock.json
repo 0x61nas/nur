@@ -458,7 +458,7 @@
   },
   {
     "addonId": "@testpilot-containers",
-    "hash": "sha256:306a294845363f15a7478e9620b43f91ea1761088727808e2327bfff16c14447",
+    "hash": "sha256:10936d682e17bd2e8afa018bde94f927b50cf05973d6ef8ca3c54f807b2cf7ba",
     "homepage": "https://github.com/mozilla/multi-account-containers/#readme",
     "licenseId": 3338,
     "permissions": [
@@ -478,8 +478,8 @@
     ],
     "slug": "multi-account-containers",
     "summary": "Firefox Multi-Account Containers lets you keep parts of your online life separated into color-coded tabs. Cookies are separated by container, allowing you to use the web with multiple accounts and integrate Mozilla VPN for an extra layer of privacy.",
-    "url": "https://addons.mozilla.org/firefox/downloads/file/4867303/multi_account_containers-8.3.8.xpi",
-    "version": "8.3.8"
+    "url": "https://addons.mozilla.org/firefox/downloads/file/5168122/multi_account_containers-8.4.0.xpi",
+    "version": "8.4.0"
   },
   {
     "addonId": "newtaboverride@agenedia.com",
@@ -928,7 +928,7 @@
       "http://www.google.cat/*"
     ],
     "slug": "privacy-badger17",
-    "summary": "Automatically learns to block hidden trackers. Made by the leading digital rights nonprofit EFF to stop companies from spying on you.",
+    "summary": "You need more than an ad blocker. Stop companies from spying on you with an extension developed by member-supported digital rights nonprofit EFF.",
     "url": "https://addons.mozilla.org/firefox/downloads/file/5032646/privacy_badger17-2026.9.15.xpi",
     "version": "2026.9.15"
   },
