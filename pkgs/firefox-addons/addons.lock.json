@@ -20,7 +20,7 @@
   },
   {
     "addonId": "{a8cf72f7-09b7-4cd4-9aaa-7a023bf09916}",
-    "hash": "sha256:698e976a06d8dfe60a7bdd2b459ef1f2ffb722f993c22355c61d4862367f9a95",
+    "hash": "sha256:bae93eb5c78b1414de99b1c9b502fadb9f9fe965c809f5137dda0bea2b2192f0",
     "homepage": "https://time-tracker-4-browser.app/en/",
     "licenseId": 22,
     "permissions": [
@@ -32,8 +32,8 @@
     ],
     "slug": "besttimetracker",
     "summary": "Track time, analyze your habits and block addictive sites",
-    "url": "https://addons.mozilla.org/firefox/downloads/file/5167472/besttimetracker-4.6.6.xpi",
-    "version": "4.6.6"
+    "url": "https://addons.mozilla.org/firefox/downloads/file/5210731/besttimetracker-4.6.7.xpi",
+    "version": "4.6.7"
   },
   {
     "addonId": "{74145f27-f039-47ce-a470-a662b129930a}",
@@ -292,7 +292,7 @@
   },
   {
     "addonId": "addon@darkreader.org",
-    "hash": "sha256:700633395aa2f639a1bed4253e27309eb676f346d599b0ae2b7a0453232e0aec",
+    "hash": "sha256:bfed4591d6cc69857f5ed33a2d3cbfbc5811d5b92c4323d0735d2f1757e2dce4",
     "homepage": "https://darkreader.org/",
     "licenseId": 22,
     "permissions": [
@@ -305,8 +305,8 @@
     ],
     "slug": "darkreader",
     "summary": "Dark mode for every website. Take care of your eyes, use dark theme for night and daily browsing.",
-    "url": "https://addons.mozilla.org/firefox/downloads/file/5175215/darkreader-4.9.134.xpi",
-    "version": "4.9.134"
+    "url": "https://addons.mozilla.org/firefox/downloads/file/5216111/darkreader-4.9.135.xpi",
+    "version": "4.9.135"
   },
   {
     "addonId": "floccus@handmadeideas.org",
@@ -415,7 +415,7 @@
   },
   {
     "addonId": "7esoorv3@alefvanoon.anonaddy.me",
-    "hash": "sha256:c0fa9a5c2302eb734b1b614284371061330cf2e7b3519ee96c53e8be58ae298f",
+    "hash": "sha256:cd0796cbcaf9f7eb2643e9b937dc735526605e6eae925eda2a28b2e703bff234",
     "homepage": "https://libredirect.manerakai.com/",
     "licenseId": 6,
     "permissions": [
@@ -428,8 +428,8 @@
     ],
     "slug": "libredirect",
     "summary": "Redirects YouTube, Twitter, TikTok... requests to alternative privacy friendly frontends.",
-    "url": "https://addons.mozilla.org/firefox/downloads/file/4916828/libredirect-3.4.0.xpi",
-    "version": "3.4.0"
+    "url": "https://addons.mozilla.org/firefox/downloads/file/5207393/libredirect-3.5.1.xpi",
+    "version": "3.5.1"
   },
   {
     "addonId": "{eac6e624-97fa-4f28-9d24-c06c9b8aa713}",
@@ -458,7 +458,7 @@
   },
   {
     "addonId": "@testpilot-containers",
-    "hash": "sha256:306a294845363f15a7478e9620b43f91ea1761088727808e2327bfff16c14447",
+    "hash": "sha256:10936d682e17bd2e8afa018bde94f927b50cf05973d6ef8ca3c54f807b2cf7ba",
     "homepage": "https://github.com/mozilla/multi-account-containers/#readme",
     "licenseId": 3338,
     "permissions": [
@@ -478,8 +478,8 @@
     ],
     "slug": "multi-account-containers",
     "summary": "Firefox Multi-Account Containers lets you keep parts of your online life separated into color-coded tabs. Cookies are separated by container, allowing you to use the web with multiple accounts and integrate Mozilla VPN for an extra layer of privacy.",
-    "url": "https://addons.mozilla.org/firefox/downloads/file/4867303/multi_account_containers-8.3.8.xpi",
-    "version": "8.3.8"
+    "url": "https://addons.mozilla.org/firefox/downloads/file/5168122/multi_account_containers-8.4.0.xpi",
+    "version": "8.4.0"
   },
   {
     "addonId": "newtaboverride@agenedia.com",
@@ -928,7 +928,7 @@
       "http://www.google.cat/*"
     ],
     "slug": "privacy-badger17",
-    "summary": "Automatically learns to block hidden trackers. Made by the leading digital rights nonprofit EFF to stop companies from spying on you.",
+    "summary": "You need more than an ad blocker. Stop companies from spying on you with an extension developed by member-supported digital rights nonprofit EFF.",
     "url": "https://addons.mozilla.org/firefox/downloads/file/5032646/privacy_badger17-2026.9.15.xpi",
     "version": "2026.9.15"
   },
@@ -965,7 +965,7 @@
   },
   {
     "addonId": "{762f9885-5a13-4abd-9c77-433dcd38b8fd}",
-    "hash": "sha256:59719749f6df38c1601ca5f39c02158d5f005c43e9eeea1f19527f468c941217",
+    "hash": "sha256:82b780b5bab6a03aafa07cf89f17c4c49f4d13333867772e3e975c1c6c827a53",
     "licenseId": 6,
     "permissions": [
       "activeTab",
@@ -976,8 +976,8 @@
     ],
     "slug": "return-youtube-dislikes",
     "summary": "Returns ability to see dislike statistics on youtube",
-    "url": "https://addons.mozilla.org/firefox/downloads/file/5012638/return_youtube_dislikes-4.0.6.xpi",
-    "version": "4.0.6"
+    "url": "https://addons.mozilla.org/firefox/downloads/file/5205580/return_youtube_dislikes-4.1.5.xpi",
+    "version": "4.1.5"
   },
   {
     "addonId": "{3c078156-979c-498b-8990-85f7987dd929}",
@@ -1005,7 +1005,7 @@
   },
   {
     "addonId": "{531906d3-e22f-4a6c-a102-8057b88a1a63}",
-    "hash": "sha256:4a2ea4e685e4562995ee0d0b31f11005b69b533959f4119ac6f7b4f8d846b865",
+    "hash": "sha256:aa4e6de6fe46d59985e12a897882c29e2a7f54f3a838b2e391e6ac51d1ea3c97",
     "homepage": "https://www.getsinglefile.com",
     "licenseId": 7714,
     "permissions": [
@@ -1018,8 +1018,8 @@
     ],
     "slug": "single-file",
     "summary": "Save an entire web page—including images and styling—as a single HTML file.",
-    "url": "https://addons.mozilla.org/firefox/downloads/file/5177756/single_file-1.33.0.xpi",
-    "version": "1.33.0"
+    "url": "https://addons.mozilla.org/firefox/downloads/file/5218789/single_file-1.36.0.xpi",
+    "version": "1.36.0"
   },
   {
     "addonId": "sponsorBlocker@ajay.app",
@@ -1122,7 +1122,7 @@
   },
   {
     "addonId": "uBlock0@raymondhill.net",
-    "hash": "sha256:5b74415860456370644bd80f16125e865b0e6c356bb5dfcfb84069967eaa5287",
+    "hash": "sha256:e2df503cce7cf5069130618c349695f62bdddb9eb8c189156d027269ae4ae267",
     "homepage": "https://github.com/gorhill/uBlock#ublock-origin",
     "licenseId": 6,
     "permissions": [
@@ -1152,8 +1152,8 @@
     ],
     "slug": "ublock-origin",
     "summary": "Finally, an efficient wide-spectrum content blocker. Easy on CPU and memory.",
-    "url": "https://addons.mozilla.org/firefox/downloads/file/5034826/ublock_origin-1.75.0.xpi",
-    "version": "1.75.0"
+    "url": "https://addons.mozilla.org/firefox/downloads/file/5203014/ublock_origin-1.75.4.xpi",
+    "version": "1.75.4"
   },
   {
     "addonId": "{aecec67f-0d10-4fa7-b7c7-609a2db280cf}",
