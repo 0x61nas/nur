@@ -308,7 +308,7 @@
   },
   {
     "addonId": "floccus@handmadeideas.org",
-    "hash": "sha256:71f658e689e67c17b3c605503e64400fa05c730618365b8d023b8e63bd1c8473",
+    "hash": "sha256:05c9e7ffe9f915829ef7305e3af6ebcb30eeaf43777a5b312ad5257757a523b0",
     "homepage": "https://floccus.org",
     "licenseId": 3338,
     "permissions": [
@@ -323,8 +323,8 @@
     ],
     "slug": "floccus",
     "summary": "Securely synchronize bookmarks across Chrome, Firefox, Edge, and more using your own cloud storage.",
-    "url": "https://addons.mozilla.org/firefox/downloads/file/5224106/floccus-5.13.0.xpi",
-    "version": "5.13.0"
+    "url": "https://addons.mozilla.org/firefox/downloads/file/5285330/floccus-5.14.0.xpi",
+    "version": "5.14.0"
   },
   {
     "addonId": "foxytab@eros.man",
@@ -1003,7 +1003,7 @@
   },
   {
     "addonId": "{531906d3-e22f-4a6c-a102-8057b88a1a63}",
-    "hash": "sha256:0bd60baef8d6f153574e15ce599135b573c1d7c727ae6fbc1499c49e8b491fa5",
+    "hash": "sha256:15bf2a1ea115b89cf94415d5d8a7d6ef2979f5b3d3410aa9de7fbf70a80bc269",
     "homepage": "https://www.getsinglefile.com",
     "licenseId": 7714,
     "permissions": [
@@ -1016,8 +1016,8 @@
     ],
     "slug": "single-file",
     "summary": "Save an entire web page—including images and styling—as a single HTML file.",
-    "url": "https://addons.mozilla.org/firefox/downloads/file/5274593/single_file-1.39.0.xpi",
-    "version": "1.39.0"
+    "url": "https://addons.mozilla.org/firefox/downloads/file/5284257/single_file-1.40.0.xpi",
+    "version": "1.40.0"
   },
   {
     "addonId": "sponsorBlocker@ajay.app",
