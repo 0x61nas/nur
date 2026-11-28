@@ -254,7 +254,7 @@
   },
   {
     "addonId": "{5cce4ab5-3d47-41b9-af5e-8203eea05245}",
-    "hash": "sha256:da1a5b6ba9715dc104b156d03f58b8b0e2534a1183cb15c98fc9183575e2d89c",
+    "hash": "sha256:1ffca9d9a33caca75b5ccc2ac83cb0d620ff41c95abebd12633c1a508be322c6",
     "homepage": "https://soitis.dev/control-panel-for-twitter",
     "licenseId": 22,
     "permissions": [
@@ -264,8 +264,8 @@
     ],
     "slug": "control-panel-for-twitter",
     "summary": "Gives you more control over Twitter and adds missing features and UI improvements",
-    "url": "https://addons.mozilla.org/firefox/downloads/file/5297310/control_panel_for_twitter-4.99.4.xpi",
-    "version": "4.99.4"
+    "url": "https://addons.mozilla.org/firefox/downloads/file/5309171/control_panel_for_twitter-4.99.5.xpi",
+    "version": "4.99.5"
   },
   {
     "addonId": "crxviewer-firefox@robwu.nl",
@@ -1003,7 +1003,7 @@
   },
   {
     "addonId": "{531906d3-e22f-4a6c-a102-8057b88a1a63}",
-    "hash": "sha256:15bf2a1ea115b89cf94415d5d8a7d6ef2979f5b3d3410aa9de7fbf70a80bc269",
+    "hash": "sha256:67b91a2d3e211a40c76e92d47e61e3ed67ba0fab81d6ab5e3a622fb4a1bdc14f",
     "homepage": "https://www.getsinglefile.com",
     "licenseId": 7714,
     "permissions": [
@@ -1012,12 +1012,13 @@
       "downloads",
       "storage",
       "tabs",
-      "<all_urls>"
+      "<all_urls>",
+      "contextualIdentities"
     ],
     "slug": "single-file",
     "summary": "Save an entire web page—including images and styling—as a single HTML file.",
-    "url": "https://addons.mozilla.org/firefox/downloads/file/5284257/single_file-1.40.0.xpi",
-    "version": "1.40.0"
+    "url": "https://addons.mozilla.org/firefox/downloads/file/5317286/single_file-1.42.0.xpi",
+    "version": "1.42.0"
   },
   {
     "addonId": "sponsorBlocker@ajay.app",
@@ -1039,7 +1040,7 @@
   },
   {
     "addonId": "{7a7a4a92-a2a0-41d1-9fd7-1e92480d612d}",
-    "hash": "sha256:4c8e1b0f63457dd9092e6148631fbaddb71edc24d3acfc39b53ea8f78f0d2254",
+    "hash": "sha256:3261b7482ff352783138221387ad9495b3d8d3ddb90ccb99454a0fcd3f47941f",
     "homepage": "https://add0n.com/stylus.html",
     "licenseId": 6,
     "permissions": [
@@ -1056,8 +1057,8 @@
     ],
     "slug": "styl-us",
     "summary": "Redesign your favorite websites with Stylus, an actively developed and community driven userstyles manager. Easily install custom themes from popular online repositories, or create, edit, and manage your own personalized CSS stylesheets.",
-    "url": "https://addons.mozilla.org/firefox/downloads/file/5257053/styl_us-2.4.18.xpi",
-    "version": "2.4.18"
+    "url": "https://addons.mozilla.org/firefox/downloads/file/5307848/styl_us-2.4.19.xpi",
+    "version": "2.4.19"
   },
   {
     "addonId": "Tab-Session-Manager@sienori",
@@ -1120,7 +1121,7 @@
   },
   {
     "addonId": "uBlock0@raymondhill.net",
-    "hash": "sha256:894ea48dedd26a637ab98ba627ae70b7ed94798eabfd4b089f5e5e73524a24eb",
+    "hash": "sha256:5ffd52b863d5a02a639423e90252f7a7f8866c5599e360970f4d1f69dfc4b74a",
     "homepage": "https://github.com/gorhill/uBlock#ublock-origin",
     "licenseId": 6,
     "permissions": [
@@ -1151,8 +1152,8 @@
     ],
     "slug": "ublock-origin",
     "summary": "Finally, an efficient wide-spectrum content blocker. Easy on CPU and memory.",
-    "url": "https://addons.mozilla.org/firefox/downloads/file/5290541/ublock_origin-1.77.0.xpi",
-    "version": "1.77.0"
+    "url": "https://addons.mozilla.org/firefox/downloads/file/5316374/ublock_origin-1.77.4.xpi",
+    "version": "1.77.4"
   },
   {
     "addonId": "{aecec67f-0d10-4fa7-b7c7-609a2db280cf}",
